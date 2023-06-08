@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Aplango</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        role="status"
+        style="width: 3rem; height: 3rem"
+      ></div>
+    </div>
+    <!-- Spinner End -->
+    <!-- Navbar Start -->
+    <div
+      class="container-fluid fixed-top px-0 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <!-- <div class="top-bar row gx-0 align-items-center d-none d-lg-flex"></div> -->
+
+      <nav
+        class="navbar navbar-expand-lg navbar-light py-lg-4 px-lg-5 wow fadeIn"
+        data-wow-delay="0.1s"
+      >
+        <a href="index.html" class="navbar-brand ms-4 ms-lg-0 p-4 pt-lg-4 pb-0">
+          <img src="./img/logo.png" alt="" srcset="" class="img-fluid" />
+        </a>
+        <button
+          type="button"
+          class="navbar-toggler me-4"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav mx-auto p-4 pt-lg-4 pb-0">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="about.html" class="nav-item nav-link">About Us</a>
+            <div class="nav-item dropdown ktm-mega-menu d-none d-lg-block">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                Categories
+              </a>
+              <!-- Mega Menu -->
+              <div class="dropdown-menu mega-menu p-3">
+                <div class="row">
+                  <div class="col-md-4 col-12">
+                    <div class="category-wrapper">
+                      <a href="" rel="noindex"
+                        ><div class="red heading">Recharge</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Bill Payments</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">DTH Recharge</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Mobile Recharge</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="red heading">Food &amp; Dining</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Pizza</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Food Delivery</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Grocery</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="red heading">Fashion</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Clothing</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Footwear</div></a
+                      >
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-12">
+                    <div class="category-wrapper">
+                      <a href="" rel="noindex"
+                        ><div class="red heading">Travel</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Bus</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Flight</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Train</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Cabs</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Hotel</div></a
+                      >
+                      <div class="heading">Other Popular</div>
+                      <a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Mobiles</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Laptops</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Movie Tickets</div></a
+                      >
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-12">
+                    <div class="category-wrapper">
+                      <div class="heading">Other Categories</div>
+                      <a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">
+                          TV, Audio/Video &amp; Movies
+                        </div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Beauty &amp; Health</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Miscellaneous</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">
+                          Computers, Laptops &amp; Gaming
+                        </div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Appliances</div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">
+                          Home Furnishing &amp; Decor
+                        </div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">
+                          Flowers, Gifts &amp; Jewellery
+                        </div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">
+                          Books &amp; Stationery
+                        </div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">
+                          Kids, Babies &amp; Toys
+                        </div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">
+                          Cameras &amp; Accessories
+                        </div></a
+                      ><a href="Categories-filter.html" rel="noindex"
+                        ><div class="sub-heading">Sports &amp; Fitness</div></a
+                      >
+                    </div>
+                  </div>
+                  <div class="top-categories">
+                    <a href="categories.html"
+                      >View all Categories <i class="fa fa-angle-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a
+              href="categories.html"
+              class="nav-item nav-link d-lg-none d-block"
+              >Categories</a
+            >
+            <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+            <a href="blog.html" class="nav-item nav-link">Blog</a>
+            <div class="d-block d-lg-none ms-2 p-4 pt-lg-4 pb-0">
+              <a
+                href="login.html"
+                type="button"
+                class="btn btn-outline-danger rounded-pill"
+                >Login</a
+              >
+              <a
+                href="register.html"
+                type="button"
+                class="btn btn-outline-danger rounded-pill mx-3"
+              >
+                SignUp
+              </a>
+            </div>
+          </div>
+          <div class="d-none d-lg-flex ms-2 p-4 pt-lg-4 pb-0">
+            <div class="dropdown">
+              <a
+                class="btn btn-light dropdown-toggle d-flex px-3"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <div class="row">
+                  <div class="col-6">
+                    <div class="position-relative">
+                      <img
+                        height="40px"
+                        width="40px"
+                        class="header-user-pic"
+                        src="https://d1nrhamtcpp354.cloudfront.net/modules/web/assets/images/default_user.png"
+                        alt="profile pic"
+                      />
+                      <span
+                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                      >
+                        1
+                        <span class="visually-hidden">unread messages</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-6" style="line-height: 5px">
+                    <h6>You</h6>
+                    <small>Rs.0.00</small>
+                  </div>
+                </div>
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li>
+                  <a class="dropdown-item" href="register.html">Signup</a>
+                </li>
+                <li><a class="dropdown-item" href="login.html">Login</a></li>
+
+                <li>
+                  <a class="dropdown-item" href="help.html">Help & Support</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div
+      class="container-fluid page-header mb-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container">
+        <h1 class="display-3 mb-4 animated slideInDown">Top Store</h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+          <ol class="breadcrumb mb-0">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+
+            <li class="breadcrumb-item active" aria-current="page">
+              Top Store
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- store start -->
+    <div class="container">
+      <div
+        class="text-center mx-auto wow fadeInUp"
+        data-wow-delay="0.1s"
+        style="max-width: 600px"
+      >
+        <p class="d-inline-block rounded text-danger fw-bold py-1 px-3">
+          Top Store
+        </p>
+        <h4 class="mb-5">Meet exciting Store of app</h4>
+      </div>
+      <div>
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item mx-lg-3 mx-2" role="presentation">
+            <button
+              class="nav-link active w-100 rounded-pill"
+              id="pills-home-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-home"
+              type="button"
+              role="tab"
+              aria-controls="pills-home"
+              aria-selected="true"
+              style="border: 1px solid #535353"
+            >
+              All
+            </button>
+          </li>
+          <li class="nav-item mx-2 mx-lg-3" role="presentation">
+            <button
+              class="nav-link w-100 rounded-pill"
+              id="pills-profile-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-profile"
+              type="button"
+              role="tab"
+              aria-controls="pills-profile"
+              aria-selected="false"
+              style="border: 1px solid #535353"
+            >
+              Coupons
+            </button>
+          </li>
+          <li class="nav-item mx-2 mx-lg-3" role="presentation">
+            <button
+              class="nav-link w-100 rounded-pill"
+              id="pills-contact-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-contact"
+              type="button"
+              role="tab"
+              aria-controls="pills-contact"
+              aria-selected="false"
+              style="border: 1px solid #535353"
+            >
+              Deals
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="pills-home"
+            role="tabpanel"
+            aria-labelledby="pills-home-tab"
+          >
+            <div class="card mb-3 p-3">
+              <div class="row">
+                <div class="col-md-6 col-12">
+                  <div class="d-flex">
+                    <p>
+                      <i
+                        class="fa fa-check bg-success rounded-circle text-white p-2"
+                        style="font-size: 10px"
+                      ></i>
+                      Verified today
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-12">
+                  <p><i class="fa fa-user"></i> 14 People Used Today</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-10">
+                  <h1>Upto 90% Off Everday</h1>
+                  <small
+                    >Amazon Daily Deals: Save Upto 90% On Select Products Every
+                    Hour</small
+                  >
+                </div>
+                <div class="col-md-2 mt-3">
+                  <button class="btn btn-danger">Get Deal</button>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 p-3">
+              <div class="row">
+                <div class="col-md-6 col-12">
+                  <div class="d-flex">
+                    <p>
+                      <i
+                        class="fa fa-check bg-success rounded-circle text-white p-2"
+                        style="font-size: 10px"
+                      ></i>
+                      Verified today
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-12">
+                  <p><i class="fa fa-user"></i> 14 People Used Today</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-10">
+                  <h1>Upto 90% Off Everday</h1>
+                  <small
+                    >Amazon Daily Deals: Save Upto 90% On Select Products Every
+                    Hour</small
+                  >
+                </div>
+                <div class="col-md-2 mt-3">
+                  <button class="btn btn-danger">Get Deal</button>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 p-3">
+              <div class="row">
+                <div class="col-md-6 col-12">
+                  <div class="d-flex">
+                    <p>
+                      <i
+                        class="fa fa-check bg-success rounded-circle text-white p-2"
+                        style="font-size: 10px"
+                      ></i>
+                      Verified today
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-12">
+                  <p><i class="fa fa-user"></i> 14 People Used Today</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-10">
+                  <h1>Upto 90% Off Everday</h1>
+                  <small
+                    >Amazon Daily Deals: Save Upto 90% On Select Products Every
+                    Hour</small
+                  >
+                </div>
+                <div class="col-md-2 mt-3">
+                  <button class="btn btn-danger">Get Deal</button>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 p-3">
+              <div class="row">
+                <div class="col-md-6 col-12">
+                  <div class="d-flex">
+                    <p>
+                      <i
+                        class="fa fa-check bg-success rounded-circle text-white p-2"
+                        style="font-size: 10px"
+                      ></i>
+                      Verified today
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-12">
+                  <p><i class="fa fa-user"></i> 14 People Used Today</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-10">
+                  <h1>Upto 90% Off Everday</h1>
+                  <small
+                    >Amazon Daily Deals: Save Upto 90% On Select Products Every
+                    Hour</small
+                  >
+                </div>
+                <div class="col-md-2 mt-3">
+                  <button class="btn btn-danger">Get Deal</button>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 p-3">
+              <div class="row">
+                <div class="col-md-6 col-12">
+                  <div class="d-flex">
+                    <p>
+                      <i
+                        class="fa fa-check bg-success rounded-circle text-white p-2"
+                        style="font-size: 10px"
+                      ></i>
+                      Verified today
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-12">
+                  <p><i class="fa fa-user"></i> 14 People Used Today</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-10">
+                  <h1>Upto 90% Off Everday</h1>
+                  <small
+                    >Amazon Daily Deals: Save Upto 90% On Select Products Every
+                    Hour</small
+                  >
+                </div>
+                <div class="col-md-2 mt-3">
+                  <button class="btn btn-danger">Get Deal</button>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 p-3">
+              <div class="row">
+                <div class="col-md-6 col-12">
+                  <div class="d-flex">
+                    <p>
+                      <i
+                        class="fa fa-check bg-success rounded-circle text-white p-2"
+                        style="font-size: 10px"
+                      ></i>
+                      Verified today
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-12">
+                  <p><i class="fa fa-user"></i> 14 People Used Today</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-10">
+                  <h1>Upto 90% Off Everday</h1>
+                  <small
+                    >Amazon Daily Deals: Save Upto 90% On Select Products Every
+                    Hour</small
+                  >
+                </div>
+                <div class="col-md-2 mt-3">
+                  <button class="btn btn-danger">Get Deal</button>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 p-3">
+              <div class="row">
+                <div class="col-md-6 col-12">
+                  <div class="d-flex">
+                    <p>
+                      <i
+                        class="fa fa-check bg-success rounded-circle text-white p-2"
+                        style="font-size: 10px"
+                      ></i>
+                      Verified today
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-12">
+                  <p><i class="fa fa-user"></i> 14 People Used Today</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-10">
+                  <h1>Upto 90% Off Everday</h1>
+                  <small
+                    >Amazon Daily Deals: Save Upto 90% On Select Products Every
+                    Hour</small
+                  >
+                </div>
+                <div class="col-md-2 mt-3">
+                  <button class="btn btn-danger">Get Deal</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-5 mb-5 text-center">
+              <button class="btn btn-danger">View More</button>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-profile"
+            role="tabpanel"
+            aria-labelledby="pills-profile-tab"
+          >
+            ...
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-contact"
+            role="tabpanel"
+            aria-labelledby="pills-contact-tab"
+          >
+            ...
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- store end -->
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
